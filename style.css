@@ -1,0 +1,46 @@
+body {
+  background-color: #CCC;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #BBB;
+  padding: 45px 30px;
+}
+
+nav {
+  background-color: #EEE;
+  float: left;
+  width: 40%;
+  margin: 0;
+}
+
+footer {
+  background-color: #AAA;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 30px;
+  border: 1px solid grey;
+}
+
+.main_content {
+  background-color: white;
+  width: 60%;
+  float: left;
+}
+
+/*Clearfix*/
+
+div:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
